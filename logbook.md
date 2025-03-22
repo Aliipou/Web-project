@@ -4,8 +4,8 @@
 I'll use this document to keep track of the time I spend on this project.
 
 ### Team
-- [Your Name]
-- [Partner's Name - if applicable]
+- [Ali Pourrahim]
+
 
 ---
 
