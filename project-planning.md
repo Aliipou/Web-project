@@ -10,8 +10,8 @@ The site will have sections for my projects, skills, a little about me, and a wa
 [Link to Logbook](./Logbook.md)
 
 ### Project Team
-- [Your Name]
-- [Optional: Partner's Name]
+- [Ali Pourrahim]
+
 
 ---
 
