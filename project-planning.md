@@ -7,7 +7,7 @@ For this course project, I'm going to build a personal portfolio website to show
 The site will have sections for my projects, skills, a little about me, and a way for people to contact me. I want it to look professional but also show some personality. The main goal is to create something that makes a good impression and helps me stand out when applying for jobs.
 
 ### Logbook
-[Link to Logbook]([https://github.com/Aliipou/Web-project/blob/main/logbook.md])
+[Link to Logbook](https://github.com/Aliipou/Web-project/blob/main/logbook.md))
 
 ### Project Team
 - [Ali Pourrahim]
