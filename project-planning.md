@@ -1,5 +1,5 @@
 # Personal Portfolio Website
-## IT00AL12-3004 Advanced Web Development - Project Phase 1
+##  Advanced Web Development - Project Phase 1
 
 ## Project Overview
 For this course project, I'm going to build a personal portfolio website to showcase my work and skills. I need a place to display my projects and make it easier for potential employers to learn about me. I've been wanting to make a portfolio site for a while, and this course gives me the perfect opportunity to finally do it right.
@@ -150,7 +150,7 @@ I've sketched some rough ideas for the main pages of my portfolio. These aren't 
 - Links to live site or GitHub repo if available
 
 ### Skills & Experience Page
-![Skills Page Sketch](./wireframes/skills_sketch.png)
+![Skills Page Sketch](https://ibb.co/QqT402R)
 - Visual representation of skills (maybe a chart?)
 - Grouped by category (frontend, backend, tools, etc.)
 - Work experience timeline
@@ -158,7 +158,7 @@ I've sketched some rough ideas for the main pages of my portfolio. These aren't 
 - Download resume button
 
 ### Contact Page
-![Contact Page Sketch](./wireframes/contact_sketch.png)
+![Contact Page Sketch](https://ibb.co/rKjGwF0n)
 - Simple contact form
 - Alternative contact methods
 - Social media/professional links
