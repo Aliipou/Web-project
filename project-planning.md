@@ -17,7 +17,7 @@ The site will have sections for my projects, skills, a little about me, and a wa
 
 ## 1. User Personas
 
-### Persona 1: Sarah - Hiring Manager
+### Persona 1: Pekka - Hiring Manager
 - **Age:** 38
 - **Job:** Tech company hiring manager
 - **Tech knowledge:** Knows the industry but isn't super technical
@@ -33,7 +33,7 @@ The site will have sections for my projects, skills, a little about me, and a wa
 - **How she'd use my site:**
   Sarah would probably spend 2-3 minutes scanning my site. She'd check my projects first, then look at my skills section to match them against their job requirements. If interested, she'd look for a way to download my resume and possibly contact me.
 
-### Persona 2: Mike - Small Business Owner
+### Persona 2: Olivia - Small Business Owner
 - **Age:** 42
 - **Job:** Owns a local retail business
 - **Tech knowledge:** Uses technology but doesn't understand how it works
@@ -49,7 +49,7 @@ The site will have sections for my projects, skills, a little about me, and a wa
 - **How he'd use my site:**
   Mike would focus on the visual examples of my work and any testimonials. He'd be looking for similar projects to what he needs, and would want to see that I explain things clearly. He'd definitely use the contact form if he liked what he saw.
 
-### Persona 3: Jamie - Fellow Developer
+### Persona 3: janne - Fellow Developer
 - **Age:** 27
 - **Job:** Junior web developer
 - **Tech knowledge:** Good technical understanding, still learning
@@ -111,14 +111,14 @@ The site will have sections for my projects, skills, a little about me, and a wa
 **What they're doing:** Seeing if my skills match their needs
 
 **Scenario:**
-1. Sarah wants to check if I have the right experience for her open position
-2. She clicks on the "Skills" or "About Me" section
-3. She finds a visual representation of my skills grouped by category
-4. She can see at a glance what I'm most experienced with
-5. Below that, she finds a timeline of my work history and education
-6. She can expand each job/project to see more details about what I did
-7. She notices a button to download my full resume as a PDF
-8. She downloads it to share with her team
+1. Pekka wants to check if I have the right experience for her open position
+2. he clicks on the "Skills" or "About Me" section
+3. he finds a visual representation of my skills grouped by category
+4. he can see at a glance what I'm most experienced with
+5. Below that, he finds a timeline of my work history and education
+6. he can expand each job/project to see more details about what I did
+7. he notices a button to download my full resume as a PDF
+8. he downloads it to share with her team
 
 ---
 
