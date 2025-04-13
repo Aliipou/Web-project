@@ -1,3 +1,4 @@
+/* App.css - Basic styles for the App component */
 .App {
   text-align: center;
 }
@@ -35,4 +36,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Additional custom styles can be added here if needed */
+main {
+  min-height: calc(
+    100vh - 160px
+  ); /* Adjust based on your header/footer height */
+  padding-top: 80px; /* Space for fixed header */
+  padding-bottom: 40px;
 }

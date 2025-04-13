@@ -1,0 +1,137 @@
+[
+    {
+      "id": "portfolio-website",
+      "title": "Personal Portfolio Website",
+      "description": "A responsive portfolio website built with React and Tailwind CSS to showcase my projects and skills.",
+      "shortDescription": "My personal portfolio website with a clean, modern design.",
+      "categories": ["Frontend", "Personal"],
+      "technologies": ["React", "Tailwind CSS", "JavaScript", "HTML/CSS"],
+      "image": "portfolio.jpg",
+      "images": ["portfolio-1.jpg", "portfolio-2.jpg", "portfolio-3.jpg"],
+      "featured": true,
+      "liveUrl": "https://alipourrahim.com",
+      "githubUrl": "https://github.com/alipourrahim/portfolio",
+      "longDescription": "<p>This portfolio website was built as part of my Advanced Web Development course. I designed and developed it to showcase my projects and skills in a clean, modern interface.</p><p>The site is fully responsive and includes features like a project gallery, detailed project pages, skills visualization, and a contact form that sends emails using a Node.js backend.</p>",
+      "challenges": [
+        {
+          "title": "Responsive Design",
+          "description": "Creating a layout that works well on all screen sizes while maintaining visual appeal.",
+          "solution": "Used Tailwind CSS's responsive classes and flexbox/grid layouts to ensure the design adapts well to different devices."
+        },
+        {
+          "title": "Performance Optimization",
+          "description": "Ensuring fast load times despite having multiple images and animations.",
+          "solution": "Implemented lazy loading for images, code splitting, and optimized assets to improve overall performance."
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-site",
+      "title": "E-commerce Platform",
+      "description": "A full-stack e-commerce platform with product listings, shopping cart, user authentication, and payment processing.",
+      "shortDescription": "Feature-rich online shopping platform with secure checkout.",
+      "categories": ["Frontend", "Backend", "Commercial"],
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
+      "image": "ecommerce.jpg",
+      "images": ["ecommerce-1.jpg", "ecommerce-2.jpg", "ecommerce-3.jpg"],
+      "featured": true,
+      "liveUrl": "https://ecommerce-demo.alipourrahim.com",
+      "githubUrl": "https://github.com/alipourrahim/ecommerce-platform",
+      "longDescription": "<p>This e-commerce platform was built as a complete shopping solution with both frontend and backend components. It includes features like product browsing, filtering, shopping cart, user accounts, and secure checkout with Stripe integration.</p><p>The frontend is built with React and Redux for state management, while the backend uses Node.js with Express and MongoDB for data storage.</p>",
+      "challenges": [
+        {
+          "title": "State Management",
+          "description": "Managing complex application state across multiple components.",
+          "solution": "Implemented Redux with a well-organized store structure and action creators."
+        },
+        {
+          "title": "Payment Integration",
+          "description": "Integrating secure payment processing with proper error handling.",
+          "solution": "Used Stripe API with comprehensive error handling and success/failure feedback."
+        },
+        {
+          "title": "Database Design",
+          "description": "Creating an efficient database schema for products, users, orders, etc.",
+          "solution": "Designed MongoDB schemas with proper relationships and indexing for optimal performance."
+        }
+      ]
+    },
+    {
+      "id": "weather-app",
+      "title": "Weather Dashboard",
+      "description": "A weather application that provides current conditions and forecasts for locations worldwide using the OpenWeatherMap API.",
+      "shortDescription": "Real-time weather app with forecasts and location search.",
+      "categories": ["Frontend", "API Integration"],
+      "technologies": ["React", "JavaScript", "OpenWeatherMap API", "Geolocation API"],
+      "image": "weather.jpg",
+      "images": ["weather-1.jpg", "weather-2.jpg"],
+      "featured": true,
+      "liveUrl": "https://weather-app.alipourrahim.com",
+      "githubUrl": "https://github.com/alipourrahim/weather-app",
+      "longDescription": "<p>This weather dashboard provides users with current weather conditions and 5-day forecasts for any location in the world. It uses the OpenWeatherMap API for weather data and includes features like location search, geolocation detection, and unit conversion (Celsius/Fahrenheit).</p><p>The UI presents weather information in an intuitive, visually appealing way with icons representing different weather conditions.</p>",
+      "challenges": [
+        {
+          "title": "API Integration",
+          "description": "Working with external weather API and handling various response formats.",
+          "solution": "Created a robust API service layer to handle requests, responses, and error cases."
+        },
+        {
+          "title": "User Location",
+          "description": "Obtaining the user's location reliably across different browsers.",
+          "solution": "Implemented geolocation with proper fallbacks and permission handling."
+        }
+      ]
+    },
+    {
+      "id": "task-manager",
+      "title": "Task Management App",
+      "description": "A productivity application for managing tasks, projects, and deadlines with user authentication and data synchronization.",
+      "shortDescription": "Feature-rich task manager with categories and reminders.",
+      "categories": ["Frontend", "Backend", "Productivity"],
+      "technologies": ["React", "Firebase", "JavaScript", "CSS"],
+      "image": "taskmanager.jpg",
+      "images": ["taskmanager-1.jpg", "taskmanager-2.jpg", "taskmanager-3.jpg"],
+      "featured": false,
+      "liveUrl": "https://task-app.alipourrahim.com",
+      "githubUrl": "https://github.com/alipourrahim/task-manager",
+      "longDescription": "<p>This task management application helps users organize their work and personal tasks. Features include task creation with deadlines, priority levels, project categorization, reminders, and progress tracking.</p><p>The app uses Firebase for authentication and real-time database functionality, allowing for instant updates across devices.</p>",
+      "challenges": [
+        {
+          "title": "Real-time Updates",
+          "description": "Implementing real-time data synchronization for a collaborative experience.",
+          "solution": "Leveraged Firebase Realtime Database with proper security rules and data structuring."
+        },
+        {
+          "title": "User Experience",
+          "description": "Creating an intuitive interface for managing complex task relationships.",
+          "solution": "Designed a drag-and-drop interface with clear visual hierarchies and feedback."
+        }
+      ]
+    },
+    {
+      "id": "recipe-finder",
+      "title": "Recipe Finder App",
+      "description": "A recipe search application that lets users find recipes based on ingredients, dietary restrictions, and cuisine types.",
+      "shortDescription": "Search for recipes based on available ingredients and preferences.",
+      "categories": ["Frontend", "API Integration", "Food"],
+      "technologies": ["React", "Spoonacular API", "CSS", "JavaScript"],
+      "image": "recipe.jpg",
+      "images": ["recipe-1.jpg", "recipe-2.jpg"],
+      "featured": false,
+      "liveUrl": "https://recipe-finder.alipourrahim.com",
+      "githubUrl": "https://github.com/alipourrahim/recipe-finder",
+      "longDescription": "<p>The Recipe Finder app helps users discover new recipes based on what they already have in their kitchen. Users can enter available ingredients, set dietary restrictions (vegetarian, gluten-free, etc.), and filter by cuisine type or meal category.</p><p>The app uses the Spoonacular API to fetch recipe data and presents it in an easy-to-browse format with detailed instructions, ingredient lists, and nutritional information.</p>",
+      "challenges": [
+        {
+          "title": "Complex Search Parameters",
+          "description": "Building a user-friendly interface for multiple search criteria.",
+          "solution": "Created an intuitive form with auto-suggestions and clear filtering options."
+        },
+        {
+          "title": "API Rate Limiting",
+          "description": "Managing API request limits while providing a smooth user experience.",
+          "solution": "Implemented caching strategies and optimized API calls to minimize usage."
+        }
+      ]
+    }
+  ]
