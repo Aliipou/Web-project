@@ -1,0 +1,7 @@
+{
+  "skills": [
+    { "name": "JavaScript", "level": 80 },
+    { "name": "React", "level": 75 },
+    { "name": "Node.js", "level": 70 }
+  ]
+}
