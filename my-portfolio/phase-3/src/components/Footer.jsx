@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 /**
  * Footer Component
  * Displays website footer with navigation, social links, and copyright
+ * Updated for Phase 3 with dark mode support and blog link
  */
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white pt-12 pb-8">
+    <footer className="bg-gray-900 dark:bg-gray-950 text-white pt-12 pb-8">
       <div className="container mx-auto px-4">
         {/* Footer Content */}
         <div className="flex flex-wrap">
@@ -98,6 +99,14 @@ const Footer = () => {
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Projects
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/blog"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Blog
                 </Link>
               </li>
               <li>

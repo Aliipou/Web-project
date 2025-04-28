@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Ali Pourrahim - Personal Portfolio" />
+    <title>You're Offline | Ali Pourrahim</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #f9fafb;
+        color: #1f2937;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      
+      main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        text-align: center;
+      }
+      
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #111827;
+      }
+      
+      p {
+        margin-bottom: 1.5rem;
+        line-height: 1.6;
+        color: #4b5563;
+      }
+      
+      .icon {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+        color: #0066ff;
+      }
+      
+      .button {
+        display: inline-block;
+        background-color: #0066ff;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.375rem;
+        text-decoration: none;
+        font-weight: medium;
+        transition: background-color 0.2s;
+      }
+      
+      .button:hover {
+        background-color: #0052cc;
+      }
+      
+      .cached-pages {
+        margin-top: 2rem;
+        padding: 1.5rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        width: 100%;
+      }
+      
+      .cached-pages h2 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        color: #111827;
+      }
+      
+      .cached-list {
+        list-style: none;
+        text-align: left;
+      }
+      
+      .cached-list li {
+        margin-bottom: 0.75rem;
+      }
+      
+      .cached-list a {
+        color: #0066ff;
+        text-decoration: none;
+      }
+      
+      .cached-list a:hover {
+        text-decoration: underline;
+      }
+      
+      /* Dark mode support for clients with dark preference */
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #111827;
+          color: #f9fafb;
+        }
+        
+        h1 {
+          color: #f9fafb;
+        }
+        
+        p {
+          color: #d1d5db;
+        }
+        
+        .cached-pages {
+          background-color: #1f2937;
+        }
+        
+        .cached-pages h2 {
+          color: #f9fafb;
+        }
+        
+        .cached-list a {
+          color: #3b82f6;
+        }
+      }
+      
+      /* Add a responsive design */
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 1.75rem;
+        }
+        
+        .icon {
+          font-size: 2.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="icon">📶</div>
+        <h1>You're Offline</h1>
+        <p>
+          It looks like you're not connected to the internet right now. Some features might not be available until you reconnect.
+        </p>
+        <p>
+          Don't worry! You can still access pages you've visited before.
+        </p>
+        <a href="/" class="button">Try Again</a>
+        
+        <div class="cached-pages">
+          <h2>Available Pages</h2>
+          <ul class="cached-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/projects">My Projects</a></li>
+            <li><a href="/blog">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
